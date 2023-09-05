@@ -1,0 +1,40 @@
+body
+{
+ color: rgb(30, 20, 220);
+ 
+}
+.btn-success:hover
+{
+	background-color: red;
+}
+
+.btn-info:hover
+{
+    background-color: aqua;
+    background-size : 120px;;
+}
+
+canvas 
+{
+	animation-name: example;
+	animation-duration: 4s;
+    border-width: 20px;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes example 
+{
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px yellow;}
+
+}  
+
+h1
+{
+    font-family: 'Borel', cursive;
+    
+    
+}
+
